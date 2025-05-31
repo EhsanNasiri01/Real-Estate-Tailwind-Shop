@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-real-estate",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "EhsanNasiri",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "swiper": "^11.2.8"
+  }
+}
