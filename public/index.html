@@ -73,7 +73,16 @@
                 </linearGradient>
             </defs>
         </symbol>
-
+        <symbol
+                id="cross"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+        >
+            <path
+                    d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"
+            />
+        </symbol>
         <symbol id="icon2" width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="0.75" y="0.5" width="59" height="59" rx="29.5" stroke="url(#paint0_linear_139_6458)"/>
             <rect x="0.75" y="0.5" width="59" height="59" rx="29.5" stroke="url(#paint1_linear_139_6458)"/>
@@ -241,8 +250,40 @@
                     </nav>
 <!--                    Left (Logo)-->
                     <a href="" class="hidden md:flex-center bg-gray-08 text-white font-DanaMedium px-6 py-3.5 rounded-normal border border-gray-15 hover:bg-purple-65 transition-colors">تماس با ما</a>
-<!--                    Mobile Nav-->
-                    <div class="block md:hidden"><svg class="w-7 h-7 rotate-180"><use href="#mobile-nav"></use></svg></div>
+<!--                    Mobile Nav icon-->
+                    <div class="block md:hidden mobile-sidebar">
+                        <svg class="w-7 h-7 rotate-180"><use href="#mobile-nav"></use></svg>
+<!--                        invisible opacity-0-->
+<!--                        Mobile sidebar-->
+                        <div class="open-sidebar bg-[#13151d] fixed left-0 top-0 bottom-0 w-[65%] h-full z-40 md:hidden backdrop-blur-sm rounded-lg py-5 px-3">
+<!--                            Header sidebar-->
+                            <header class="flex justify-between items-center mb-5">
+<!--                                cross icon -->
+                                <a href="" class="inline-flex items-center text-white gap-x-2 font-MorabbaMedium md:text-sm"><svg class=" w-5  h-5 text-purple-60"><use href="#logo"></use></svg> گروه مشاورین املاک </a>
+
+                                <div class="text-zinc-600 dark:text-white hover:cursor-pointer close-sidebar"><svg class="w-7 h-7"><use href="#cross"></use></svg></div>
+                            </header>
+<!--                            Bottom header border-->
+                            <div class="flex justify-center">
+                                <span class="h-px w-[90%] bg-gray-100 dark:bg-white/10"></span>
+                            </div>
+<!--                            Body Sidebar-->
+                            <main>
+                                <div class="flex flex-col px-5 py-5">
+                                    <div class="flex flex-col child:transition-colors font-DanaMedium">
+                                        <a href="" class="mb-[58px] hover:text-purple-60">خانه ها</a>
+                                        <a href="" class="mb-[58px] hover:text-purple-60">نظرات مشتریان</a>
+                                        <a href="" class="mb-[58px] hover:text-purple-60">سوالات متداول</a>
+                                        <a href="" class="mb-[58px] hover:text-purple-60">تماس با ما</a>
+                                    </div>
+
+                                </div>
+                            </main>
+                        </div>
+
+                    </div>
+                    <!--                        Sidebar Menu-->
+
                 </div>
             </div>
         </div>
@@ -250,7 +291,7 @@
     <main>
         <section class="top-body mb-5">
             <div class="container2 lg:mx-0">
-                <div class="flex md:flex-row flex-col items-center ">
+                <div class="flex md:flex-row flex-col items-center ">;
                 <!--            Right-->
                 <div class="w-full h-[302px] md:w-[920px] md:h-[814px] relative bg-TopBody bg-no-repeat bg-cover bg-center rounded-xl md:rounded-none">
                     <!--                Middle-->
@@ -895,7 +936,7 @@
     </footer>
 
 
-    <script src="scripts/swiper-bundle.min.js   "></script>'
+    <script src="scripts/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
@@ -992,5 +1033,6 @@
         });
 
     </script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
