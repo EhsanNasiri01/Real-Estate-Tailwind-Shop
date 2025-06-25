@@ -709,12 +709,6 @@ video {
   }
 }
 
-.close-sidebarmenu {
-  visibility: hidden;
-  display: none;
-  opacity: 0;
-}
-
 .visible {
   visibility: visible;
 }
@@ -1532,6 +1526,8 @@ video {
 .delay-75 {
   transition-delay: 75ms;
 }
+
+/*s*/
 
 @media (min-width: 768px) {
   .md\:flex-center {

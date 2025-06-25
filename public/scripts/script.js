@@ -24,4 +24,4 @@ closeSidebar.addEventListener("click",(e)=>{
 
 });
 
-// thankss
+// thanksss
