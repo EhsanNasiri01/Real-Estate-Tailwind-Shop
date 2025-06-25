@@ -250,44 +250,46 @@
                     </nav>
 <!--                    Left (Logo)-->
                     <a href="" class="hidden md:flex-center bg-gray-08 text-white font-DanaMedium px-6 py-3.5 rounded-normal border border-gray-15 hover:bg-purple-65 transition-colors">تماس با ما</a>
-<!--                    Mobile Nav icon-->
-                    <div class="block md:hidden mobile-sidebar">
+<!--                    Mobile Menu Btn-->
+                    <div class="block md:hidden mobileMenuBtn">
                         <svg class="w-7 h-7 rotate-180"><use href="#mobile-nav"></use></svg>
-<!--                        invisible opacity-0-->
-<!--                        Mobile sidebar-->
-                        <div class="open-sidebar bg-[#13151d] fixed left-0 top-0 bottom-0 w-[65%] h-full z-40 md:hidden backdrop-blur-sm rounded-lg py-5 px-3">
-<!--                            Header sidebar-->
-                            <header class="flex justify-between items-center mb-5">
-<!--                                cross icon -->
-                                <a href="" class="inline-flex items-center text-white gap-x-2 font-MorabbaMedium md:text-sm"><svg class=" w-5  h-5 text-purple-60"><use href="#logo"></use></svg> گروه مشاورین املاک </a>
+<!--                        -->
 
-                                <div class="text-zinc-600 dark:text-white hover:cursor-pointer close-sidebar"><svg class="w-7 h-7"><use href="#cross"></use></svg></div>
-                            </header>
-<!--                            Bottom header border-->
-                            <div class="flex justify-center">
-                                <span class="h-px w-[90%] bg-gray-100 dark:bg-white/10"></span>
-                            </div>
-<!--                            Body Sidebar-->
-                            <main>
-                                <div class="flex flex-col px-5 py-5">
-                                    <div class="flex flex-col child:transition-colors font-DanaMedium">
-                                        <a href="" class="mb-[58px] hover:text-purple-60">خانه ها</a>
-                                        <a href="" class="mb-[58px] hover:text-purple-60">نظرات مشتریان</a>
-                                        <a href="" class="mb-[58px] hover:text-purple-60">سوالات متداول</a>
-                                        <a href="" class="mb-[58px] hover:text-purple-60">تماس با ما</a>
-                                    </div>
-
-                                </div>
-                            </main>
-                        </div>
 
                     </div>
-                    <!--                        Sidebar Menu-->
+
+
 
                 </div>
             </div>
         </div>
     </header>
+    <!--                        Sidebar menu-->
+    <div class="sidebarMenu bg-[#13151d] fixed left-0 top-0 bottom-0 w-[65%] h-full z-40 md:hidden backdrop-blur-sm rounded-lg py-5 px-3 invisible opacity-0">
+        <!--                            Header sidebar-->
+        <header class="flex justify-between items-center mb-5">
+            <!--                                cross icon -->
+            <a href="" class="inline-flex items-center text-white gap-x-2 font-MorabbaMedium"><svg class="w-5 h-5 text-purple-60 "><use href="#logo"></use></svg> گروه مشاورین املاک </a>
+
+            <div class="text-zinc-600 dark:text-white hover:cursor-pointer closeSidebar"><svg class="w-7 h-7"><use href="#cross"></use></svg></div>
+        </header>
+        <!--                            Bottom header border-->
+        <div class="flex justify-center">
+            <span class="h-px w-[90%] bg-gray-100 dark:bg-white/10"></span>
+        </div>
+        <!--                            Body Sidebar-->
+        <main>
+            <div class="flex flex-col px-5 py-5">
+                <div class="flex flex-col child:transition-colors font-DanaMedium">
+                    <a href="" class="inline-flex mb-[58px] hover:text-purple-60">خانه ها</a>
+                    <a href="" class="inline-flex mb-[58px] hover:text-purple-60">نظرات مشتریان</a>
+                    <a href="" class="inline-flex mb-[58px] hover:text-purple-60">سوالات متداول</a>
+                    <a href="" class="inline-flex mb-[58px] hover:text-purple-60">تماس با ما</a>
+                </div>
+
+            </div>
+        </main>
+    </div>
     <main>
         <section class="top-body mb-5">
             <div class="container2 lg:mx-0">
