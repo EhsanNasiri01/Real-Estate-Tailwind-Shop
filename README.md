@@ -12,11 +12,7 @@
 ایمیل: ehsan.nasiri2550@gmail.com     
 ___
 # Demo
-___
 [Website Demo](https://ehsannasiri01.github.io/Real-Estate-Tailwind-Shop/)
-
-
-
 Fully responsive real estate agent website         
 dark theme           
 incredibly attractive color scheme        
