@@ -8,9 +8,9 @@
  ### به زودی با جاوا اسکریپت و ری اکت توسعه داده میشه خوشحال میشم حمایت کنید ممنون
  ___
 # راه های ارتباطی من:
-___
 تلگرام: @KhodEhsanm        
 ایمیل: ehsan.nasiri2550@gmail.com     
+___
 # Demo
 ___
 [Website Demo](https://ehsannasiri01.github.io/Real-Estate-Tailwind-Shop/)
